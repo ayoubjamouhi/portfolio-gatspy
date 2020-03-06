@@ -7,7 +7,7 @@ import Footer from "./Footer"
 const Layout = ({ children }) => {
   return (
     <div className="font-sans leading-loose">
-      <Header siteTitle="title" />
+      <Header/>
       {children}
       <Footer />
     </div>

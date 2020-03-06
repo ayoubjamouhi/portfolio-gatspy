@@ -9,12 +9,12 @@ const Projects = () => (
     <div class="projects__all grid md:grid-cols-2 lg:grid-cols-4 text-center gap-16">
         <div>
           <a href="http://compulog.ma">
-            <img className="w-4/5 m-auto rounded" src={SupBill} />
+            <img alt="AYOUB JAMOYHI projects" className="w-4/5 m-auto rounded" src={SupBill} />
           </a>
         </div>
-        <div><img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
-        <div><img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
-        <div><img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
+        <div><img alt="AYOUB JAMOYHI projects" className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
+        <div><img alt="AYOUB JAMOYHI projects" className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
+        <div><img alt="AYOUB JAMOYHI projects" className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
     </div>
     </section>
 );
