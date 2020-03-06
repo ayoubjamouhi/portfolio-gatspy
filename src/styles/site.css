@@ -1,5 +1,16 @@
 @tailwind base;
-
+h1 {
+  @apply text-2xl text-gray-900;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-gray-900;
+}
 @tailwind components;
 
 @tailwind utilities;
@@ -27,6 +38,16 @@
     background-image: url("../images/bank-note-rotated.svg");
     background-size: 10px;
     background-position: bottom left;
+  }
+  @media (max-width: 576px) {
+    .wave {
+      height: 77px;
+    }
+  }
+  @media (max-width: 320px) {
+    .wave {
+      height: 77px;
+    }
   }
   .wave-footer {
     background: #fc6900;
