@@ -1,14 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import BankNoteRotated from "../images/bank-note-rotated.svg";
-import SupBill from "../images/supbill.png";
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+const About = () => (
     <section className="about">
       <div className="wave wave--top"></div>
       <div className="bg-yellow-rotated bg-yellow-400 bg-16 bg-left-bottom text-center pt-1 pr-8 pb-1 pl-8" >
@@ -51,28 +43,6 @@ const IndexPage = () => (
           </div>
       </div>
     </section>
-    <section class="projects text-center p-16">
-    <h3 className="text-5xl text-gray-800 font-bold">My Works</h3>
-    <span className="text-gray-800 mb-12 block">Here are a few projects. Want know about it?
-      <a className="text-gray-800 hover:text-gray-800" href="mail:gemouhi@gmail.com">Email me.</a>
-    </span>
-    <div class="projects__all grid grid-cols-4 text-center gap-16">
-        <div><img className="w-4/5 m-auto rounded" src={SupBill} /></div>
-        <div><img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
-        <div><img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
-        <div><img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" /></div>
-        <div className="col-start-2">
-          <img className="w-4/5 m-auto rounded" src="https://via.placeholder.com/150" />
-        </div>
-        <div><img className="w-4/5 m-auto rounded col-start-3" src="https://via.placeholder.com/150" /></div>
-    </div>
-    </section>
-    <section className="investing text-center p-16">
-      <h3 className="text-5xl text-gray-800 font-bold">Interested in collaborating or investing?</h3>
-      <span className="mb-6 block">I’m always open to discussing product design work or partnership opportunities.</span>
-      <button className="text-orange-500 border-2 border-orange-500 rounded py-2 px-4 font-bold text-2xl hover:bg-orange-500 hover:text-white" onclick="window.location.href='/contact'">Start a conversation</button>
-    </section>
-  </Layout>
 )
 
-export default IndexPage
+export default About
