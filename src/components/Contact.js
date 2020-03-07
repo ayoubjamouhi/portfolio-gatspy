@@ -3,7 +3,7 @@ import React from "react";
 const ContactPage = () => (
   <section className="py-20 text-center">
     <h1 className="text-5xl text-orange-500">Contact me</h1>
-    <form method="post" className="w-2/3 m-auto w-full max-w-sm px-8 py-6">
+    <form method="post" className="w-2/3 m-auto w-full max-w-sm px-8 py-6" netlify-honeypot="bot-field" data-netlify="true">
       <div className="mb-6">
         <label className="block text-gray-700 text-lg mb-2 text-left" for="name">
           Name
