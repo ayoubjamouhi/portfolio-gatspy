@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="wave wave--top wave-footer"></div>
       <div className="text-center bg-orange-500 p-16 text-white">
-        <Link className="logo text-3xl" to="/">Aj</Link>
+        <Link className="logo text-3xl uppercase" to="/">Aj</Link>
         <span className="block text-3xl">Living, learning, & leveling up one day at a time.</span>
           <div className="social__media">
             <a className="text-2 font-bold text-white" href="https://twitter.com/gemouhi">
@@ -24,10 +24,17 @@ function Footer() {
               </span>
             </a>
           </div>
-          <span class="by">
-            Handcrafted by me
-            <a href="https://twitter.com/gemouhi">@jfnadev</a>
-        </span>
+          <div className="by">
+            <span className="block">
+              <span>
+                Handcrafted by me with
+              </span>
+              <a href="https://twitter.com/gemouhi"> @jfnadev</a>
+            </span>
+            <span className="block">
+              with <span className="text-gray-900">@gatsby</span> and <span className="text-gray-900">@tailwind</span>
+            </span>
+          </div>
       </div>
     </footer>
     );

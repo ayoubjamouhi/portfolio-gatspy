@@ -6,7 +6,11 @@ const About = () => (
       <div className="bg-yellow-rotated bg-yellow-400 bg-16 bg-left-bottom text-center pt-1 pr-8 pb-1 pl-8" >
           <div className="container max-w-xl mx-auto ">
               <h3 className="text-3xl text-gray-900 bg-gradient-h3 text-center py-8 pb-6 font-bold">Hi, I’m Ayoub. Nice to meet you.</h3>
-              <p className="text-center pt-4 pb-8 text-xl break-all">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+              <p className="text-center pt-4 pb-8 text-xl break-all">
+              I'm a Web Developer as a major field interesting in working as a freelancer.
+              * also making an application with Laravel PHP backend I'm comfortable with this framework or Codeigniter,
+              * making good UI with pure CSS or with Bootstrap CSS framework or tailwind first-class CSS
+              </p>
           </div>
       </div>
       <div className="skills grid grid-col-1 md:grid-cols-3 gap-8 p-10 text-center my-10">
