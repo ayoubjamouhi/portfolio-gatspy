@@ -5,14 +5,27 @@ function Header() {
     return (
         <header className="p-5">
             <nav>
-                <ul className="flex flex-row justify-between" >
-                    <li><Link className="text-orange-500" to="/">AJ</Link></li>
-                    <li>
-                        <Link to="/contact">
-                            <button className="border-2 border-orange-500 text-xs sm:text-xs md:text-sm lg:text-sm xl:text-xl px-4 py-1 font-bold rounded-full text-orange-500 border-rad hover:bg-orange-500 hover:text-white">Say Hello</button>
-                        </Link>
-                    </li>
-                </ul>
+                <div>
+                    <img src="https://alispit.tel/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUFXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bc69ccde7b3bc018999bdcfef0663321af871c4b/aspittel.png"/>
+                </div>
+                <div><h1>Ayoub JAMOUHI</h1></div>
+                <div>
+                    <ul>
+                        <li>@ayoubjamouhi .</li>
+                        <li><span>Senior Web developer</span><span>Mathematics teacher</span></li>
+                        <li>Seoul, S.Korea from Morocco .</li>
+                    </ul>
+                 </div>
+                <div>
+                    <span>Software engineering </span>
+                    <span>Writer</span>
+                    <span>Problem solving</span>
+                    <span>Mathematics teacher</span>
+                </div>
+                <div><p>
+                    I love teaching people to code, and I am currently doing so as a Senior Developer Advocate at AWS. I have been employed in the tech industry since 2014, holding multiple software engineering positions at startups, and a Distinguished Faculty and Faculty Lead role at General Assembly's Software Engine</p>
+                </div>
+                <div></div>
             </nav>
         </header>
         )

@@ -9,7 +9,7 @@ const Projects = () => (
     <span className="text-gray-900 mb-12 block">Here are a few projects. Want know about it?
       <a className="text-gray-900 hover:text-gray-900" href="mail:gemouhi@gmail.com">Email me.</a>
     </span>
-    <div class="projects__all grid md:grid-cols-2 lg:grid-cols-3 text-center gap-16">
+    <div className="projects__all grid md:grid-cols-2 lg:grid-cols-3 text-center gap-16">
         <div>
           <a href="http://compulog.ma">
             <img alt="AYOUB JAMOYHI projects" className="w-4/5 m-auto rounded" src={supbill} />
