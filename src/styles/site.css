@@ -1,18 +1,5 @@
 @tailwind base;
-h1 {
-  @apply text-2xl text-gray-900;
-}
-h2 {
-  @apply text-xl;
-}
-h3 {
-  @apply text-lg;
-}
-a {
-  @apply text-gray-900;
-}
 @tailwind components;
-
 @tailwind utilities;
 
 @responsive {
