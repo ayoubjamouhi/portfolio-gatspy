@@ -1,33 +1,64 @@
-import React from "react";
+import React from 'react'
 
 const ContactPage = () => (
   <section className="py-20 text-center">
     <h1 className="text-5xl text-orange-500">Contact me</h1>
-    <form method="post" className="w-2/3 m-auto w-full max-w-sm px-8 py-6" netlify-honeypot="bot-field" data-netlify="true">
+    <form
+      method="post"
+      className="w-2/3 m-auto w-full max-w-sm px-8 py-6"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+    >
       <input type="hidden" name="bot-field" />
       <div className="mb-6">
-        <label className="block text-gray-700 text-lg mb-2 text-left" for="name">
+        <label
+          className="block text-gray-700 text-lg mb-2 text-left"
+          htmlFor="name"
+        >
           Name
         </label>
-        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" id="name"/>
+        <input
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          type="text"
+          name="name"
+          id="name"
+        />
       </div>
       <div className="mb-6">
-        <label className="block text-gray-700 text-lg mb-2 text-left" for="email">
+        <label
+          className="block text-gray-700 text-lg mb-2 text-left"
+          htmlFor="email"
+        >
           Email
         </label>
-        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="email" id="email"/>
+        <input
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          type="text"
+          name="email"
+          id="email"
+        />
       </div>
       <div className="mb-6">
-        <label className="block text-gray-700 text-lg mb-2 text-left" for="message">
+        <label
+          className="block text-gray-700 text-lg mb-2 text-left"
+          htmlFor="message"
+        >
           Message
         </label>
-        <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline max-h-screen"  name="message" id="message"></textarea>
+        <textarea
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline max-h-screen"
+          name="message"
+          id="message"
+        />
       </div>
       <div className="flex items-center justify-between">
-        <button className="bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+        <button
+          className="bg-orange-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          type="submit"
+        >
           Send
         </button>
-    </div>
+      </div>
     </form>
   </section>
 )

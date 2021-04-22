@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -67,7 +67,17 @@ function SEO({ description, lang, meta, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: ["portfolio", "ayoub jamouhi","jamouhi","jfnadev", "ayoubjamouhi", "@atyoubjamouhi", "PHP", "php developer", "web developer"],
+  meta: [
+    'portfolio',
+    'ayoub jamouhi',
+    'jamouhi',
+    'jfnadev',
+    'ayoubjamouhi',
+    '@atyoubjamouhi',
+    'PHP',
+    'php developer',
+    'web developer',
+  ],
   description: `AYOUB JAMOUHI portfolio`,
 }
 
