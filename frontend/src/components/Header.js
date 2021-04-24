@@ -69,6 +69,7 @@ const HeaderStyle = styled.div`
         //width: 20px;
         a {
           margin: 1rem;
+          color: #000;
           &:hover {
             //color: red;
           }
@@ -87,7 +88,7 @@ function Header() {
       <nav>
         <div className="logo">
           <img
-            src="https://alispit.tel/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUFXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bc69ccde7b3bc018999bdcfef0663321af871c4b/aspittel.png"
+            src="https://res.cloudinary.com/dzgho0ttb/image/upload/v1619110305/hwopcl1vlinio15xgis8.jpg"
             alt="#"
           />
         </div>
@@ -111,10 +112,9 @@ function Header() {
         <div className="about">
           <p>
             I'm a Web Developer as a major field interesting in working as a
-            freelancer. * also making an application with Laravel PHP backend
-            I'm comfortable with this framework or Codeigniter, * making good UI
-            with pure CSS or with Bootstrap CSS framework or tailwind
-            first-class CSS
+            freelancer. also making an application with PHP&NodeJS backend I'm
+            comfortable with this framework or Codeigniter, making good UI with
+            pure CSS or with Bootstrap CSS framework or tailwind first-class CSS
           </p>
           <button type="button">Read More ...</button>
         </div>

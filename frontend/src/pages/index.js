@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -11,13 +12,25 @@ const Container = styled.div`
   padding-top: 10vh;
 `
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Container>
     <Layout>
       <SEO title="AYOUB JAMOUHI portfio - web developer" />
-      <Blog />
+      <Blog posts={data.posts.nodes} />
     </Layout>
   </Container>
 )
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query MyQuery {
+    posts: allSanityPost {
+      nodes {
+        id
+        title
+        publishedAt
+      }
+    }
+  }
+`

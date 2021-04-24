@@ -1,6 +1,8 @@
-import React, { useRef } from 'react'
+import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+
 import styled from 'styled-components'
-import { FaFilm, FaClock } from 'react-icons/fa'
+import { FaFilm, FaClock, FaVideo } from 'react-icons/fa'
 
 const BlogStyles = styled.div`
   .post {
@@ -19,22 +21,34 @@ const BlogStyles = styled.div`
     }
   }
 `
-function Blog() {
+function Blog({ posts }) {
   return (
     <BlogStyles>
-      <div>
+      <div className="m">
         <h1 className="year mb-7">2021</h1>
-        <div className="post flex gap-3 mb-20">
+        <div className="post flex gap-5 mb-20">
           <div className="timeline">
-            <FaClock className="clock" />
+            <FaClock className="clock text-grey" />
           </div>
           <div className="article">
-            <time dateTime="YYYY-MM-DD">Apr 05, 2021</time>
-            <div className="category">
-              <FaFilm />
-              <span>Filmed a tutorial</span>
+            <time
+              dateTime="YYYY-MM-DD"
+              className="text-grey text-xs block mb-3"
+            >
+              Apr 05, 2021
+            </time>
+            <div className="category flex items-center w-2/3 mb-3 p-1 text-lilac bg-lilaclight font-bold">
+              <FaVideo />
+              <span className="block ml-2">Filmed a tutorial</span>
             </div>
-            <div className="url">Url</div>
+            <div className="url mb-3">
+              <a
+                href="https://www.youtube.com/watch?v=PqtbwGUA6Fg"
+                alt="Youtube"
+              >
+                https://www.youtube.com/watch?v=PqtbwGUA6Fg
+              </a>
+            </div>
             <div className="iframe w-full">
               <iframe
                 title="iframe"
@@ -49,8 +63,8 @@ function Blog() {
           <div className="timeline">timeline</div>
           <div className="article">
             <time dateTime="YYYY-MM-DD">Apr 05, 2021</time>
+            <FaFilm />
             <div className="category">
-              <FaFilm />
               <span>Filmed a tutorial</span>
             </div>
             <div className="url">Url</div>

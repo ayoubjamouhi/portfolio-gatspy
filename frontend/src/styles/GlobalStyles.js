@@ -8,6 +8,9 @@ const GlobalStyles = createGlobalStyle`
     --white: #fff;
     --grey: #efefef;
     --grey: #666c7e;
+    --lilac: rgb(255, 104, 212);
+    --lilac-light: rgba(255, 104, 212, 0.1);
+    --link: rgb(88, 43, 232);
   }
   body {
     font-size: 0.875rem;
@@ -17,6 +20,10 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.5rem;
     font-weight: 800;
     line-height: 36px;
+  }
+  a{
+    color: var(--link);
+    font-weight: 500;
   }
 `
 

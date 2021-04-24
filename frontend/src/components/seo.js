@@ -73,7 +73,7 @@ SEO.defaultProps = {
     'jamouhi',
     'jfnadev',
     'ayoubjamouhi',
-    '@atyoubjamouhi',
+    '@ayoubjamouhi',
     'PHP',
     'php developer',
     'web developer',

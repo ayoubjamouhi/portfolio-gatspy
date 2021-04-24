@@ -11,7 +11,10 @@ const Investing = () => (
       opportunities.
     </span>
     <Link to="/contact">
-      <button className="text-orange-500 border-2 border-orange-500 rounded py-2 px-4 font-bold text-2xl hover:bg-orange-500 hover:text-white">
+      <button
+        type="button"
+        className="text-orange-500 border-2 border-orange-500 rounded py-2 px-4 font-bold text-2xl hover:bg-orange-500 hover:text-white"
+      >
         Start a conversation
       </button>
     </Link>
